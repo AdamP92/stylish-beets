@@ -13,7 +13,7 @@ h1, h2 {
   font-family: "PT Sans", bold;
 }
 
-a, a:link {
+a {
   list-style-type: none;
   text-decoration: none;
   font-family: "PT Sans", bold;
