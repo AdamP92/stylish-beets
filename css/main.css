@@ -13,14 +13,14 @@ h1, h2 {
   font-family: "PT Sans, bold";
 }
 
-a, a:link {
+ol a, a:link {
   list-style-type: none;
   font-family: "PT Sans, bold";
   color: #8f2440;
   font-size: 1rem;
 }
 
-a, a:hover {
+ol a, a:hover {
   color: #3f1622;
   text-decoration: none;
 }
