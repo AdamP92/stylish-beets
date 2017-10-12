@@ -4,7 +4,7 @@ html {
 }
 
 img {
-  width: 75%;
+  width: 90%;
 }
 
 h1, h2 {
@@ -13,8 +13,7 @@ h1, h2 {
   font-weight: bold;
   font-family: "PT Sans";
 }
-
-a:link {
+nav, a:link {
   list-style-type: none;
   font-weight: bold;
   font-family: "PT Sans";
@@ -22,14 +21,15 @@ a:link {
   font-size: 1.125rem;
 }
 
-a:hover {
+nav, a:hover {
   color: #3f1622;
   text-decoration: none;
 }
 
 p, figcaption {
   font-family: "PT Serif";
-  font-size: 1.125rem;
+  font-weight: normal;
+  font-size: 0.8rem;
 }
 
 ul li, dl, footer {
