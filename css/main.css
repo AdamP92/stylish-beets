@@ -10,37 +10,37 @@ img {
 h1, h2 {
   color: #3f1622;
   font-size: 1.5rem;
-  font-family: "PT Sans, bold";
+  font-family: "PT Sans" bold;
 }
 
-ol a, a:link {
+nav, a, a:link {
   list-style-type: none;
-  font-family: "PT Sans, bold";
+  font-family: "PT Sans", bold;
   color: #8f2440;
   font-size: 1rem;
 }
 
-ol a, a:hover {
+nav, a, a:hover {
   color: #3f1622;
   text-decoration: none;
 }
 
 p, figcaption {
-  font-family: "PT Serif, normal";
+  font-family: "PT Serif", normal;
   font-weight: normal;
   font-size: 1rem;
 }
 
 figure p:first-child {
-  font-family: "PT Serif, normal";
+  font-family: "PT Serif",normal;
 }
 
 ul li, dl, footer {
-  font-family: "PT Serif, normal";
+  font-family: "PT Serif", normal;
 }
 
 figcaption, blockquote, dt {
-  font-family: "PT Serif, italic";
+  font-family: "PT Serif", italic;
 }
 
 blockquote {
