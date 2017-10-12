@@ -10,12 +10,16 @@ h1, h2 {
   font-family: 'PT Sans';
 }
 
-nav {
+a: link {
   list-style-type: none;
   font-weight: bold;
   font-family: 'PT Sans';
   color: #8f2440;
   font-size: 1.125rem;
+}
+
+a:hover {
+  color: #3f1622`;
 }
 
 p, figcaption: {
