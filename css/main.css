@@ -27,6 +27,7 @@ nav, a:hover {
 
 p, figcaption {
   font-family: "PT Serif", normal;
+  font-weight: normal;
   font-size: 1rem;
 }
 
