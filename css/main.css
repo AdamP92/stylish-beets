@@ -52,7 +52,7 @@ blockquote cite {
   font-size: 1.25rem;
 }
 
-nav {
+ol li {
   font-weight: bold;
   list-style-type: none;
 }
