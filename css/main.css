@@ -4,7 +4,7 @@ html {
 }
 
 img {
-  width: 95%;
+  width: 100%;
 }
 
 h1, h2 {
@@ -27,7 +27,11 @@ nav, a:hover {
 
 p, figcaption {
   font-family: "PT Serif", normal;
-  font-size: 1.25rem;
+  font-size: 1rem;
+}
+
+figure p:first-child {
+  font-family: "PT Serif", normal;
 }
 
 ul li, dl, footer {
