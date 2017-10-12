@@ -6,11 +6,13 @@ html {
 h1, h2 {
   color: #3f1622;
   font-size: 1.5rem;
-  font-family: 'PT Sans'
+  font-weight: bold;
+  font-family: 'PT Sans';
 }
 
 nav {
   list-style-type: none;
+  font-weight: bold;
   font-family: 'PT Sans';
   color: #8f2440;
   font-size: 1.125rem;
