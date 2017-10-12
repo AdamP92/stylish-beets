@@ -40,19 +40,17 @@ ul li, dl, footer {
   font-family: "PT Serif", normal;
 }
 
-figcaption, blockquote, dt {
-  font-family: "PT Serif", italic;
-}
-
 blockquote {
+  font-family: "PT Serif", italic;
   font-size: 1.5rem;
-}
-
-blockquote cite {
-  font-size: 1.25rem;
 }
 
 ol li {
   font-weight: bold;
   list-style-type: none;
+}
+
+header p:first-child {
+  font-size: 1.25rem;
+  font-family: "PT serif", bold;
 }
