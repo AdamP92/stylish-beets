@@ -3,22 +3,17 @@ html {
   background-color: #c9b5ab;
 }
 
-img {
-  width: 90%;
-}
-
 h1, h2 {
   color: #3f1622;
   font-size: 1.5rem;
-  font-weight: bold;
-  font-family: "PT Sans";
+  font-family: "PT Sans", bold;
 }
+
 nav, a:link {
   list-style-type: none;
-  font-weight: bold;
-  font-family: "PT Sans";
+  font-family: "PT Sans", bold;
   color: #8f2440;
-  font-size: 1.125rem;
+  font-size: 1rem;
 }
 
 nav, a:hover {
@@ -27,13 +22,12 @@ nav, a:hover {
 }
 
 p, figcaption {
-  font-family: "PT Serif";
-  font-weight: normal;
-  font-size: 0.8rem;
+  font-family: "PT Serif", normal;
+  font-size: 1.25rem;
 }
 
 ul li, dl, footer {
-  font-family: "PT Serif";
+  font-family: "PT Serif", normal;
 }
 
 figcaption, blockquote, dt {
