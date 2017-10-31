@@ -3,55 +3,58 @@ html {
   background-color: #c9b5ab;
 }
 
-ol li {
-  font-weight: bold;
-  list-style-type: none;
-}
-
-img {
-  width: 100%;
-}
-
-h1, h2 {
-  color: #3f1622;
-  font-size: 1.5rem;
-  font-family: "PT Sans", bold;
-  font-weight: bold;
-}
-
 a {
   list-style-type: none;
   text-decoration: none;
-  font-family: "PT Sans", bold;
-  font-weight: bold;
+  font-family: "PT Sans", bolder;
+  font-weight: bolder;
   color: #8f2440;
   font-size: 1rem;
 }
 
 a:hover {
   color: #3f1622;
+  text-decoration: underline;
+}
+
+nav {
+  list-style-type: none;
   text-decoration: none;
-}
-
-figcaption {
-  font-family: "PT Serif", italic;
-  font-weight: normal;
-  font-style: italic;
-  text-align: center;
-  font-size: .8rem;
-}
-
-.germ {
+  font-family: "PT Sans", bolder;
+  font-weight: bolder;
+  color: #8f2440;
   font-size: 1rem;
-  font-family: "PT serif", bold;
+}
+
+img {
+  width: 100%;
+}
+
+body header h1 {
+  color: #3f1622;
+  font-size: 1.5rem;
+  font-family: "PT Sans", sans-serif;
   font-weight: bold;
 }
 
+figcaption {
+  font-family: "PT Serif", serif;
+  font-weight: normal;
+  font-style: italic;
+  text-align: center;
+  font-size: 1rem;
+}
+
 ul li, dl, footer {
-  font-family: "PT Serif", normal;
+  font-family: "PT Serif", serif;
 }
 
 blockquote {
-  font-family: "PT Serif", italic;
+  font-family: "PT serif", serif;
   font-size: 1.5rem;
+  font-style: italic;
+}
+
+.germ {
+  font-weight: bold;
 }
