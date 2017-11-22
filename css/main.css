@@ -1,83 +1,35 @@
 html {
-  line-height: 1.5;
   background-color: #c9b5ab;
+  font-family: "PT Sans, PT Serif", regular;
+  line-height: 1.5;
+  font-size: 1.125rem;
+  font-weight: normal;
+}
+
+h1, h2 {
+  color: #3f1622;
+  font-family: "PT Sans", regular;
+  font-size: 1.5rem;
 }
 
 a {
-  text-decoration: none;
-  list-style-type: none;
-  font-family: "PT Sans", sans-serif;
-  font-weight: bold;
   color: #8f2440;
-  font-size: 1rem;
-}
-
-a:hover {
-  color: #3f1622;
-  text-decoration: underline;
-  list-style-type: none;
-}
-
-nav {
-  list-style-type: none;
+  text-decoration: none;
 }
 
 img {
   width: 100%;
 }
 
-h1, h2 {
+a:hover {
   color: #3f1622;
-  font-size: 1.5rem;
-  font-family: "PT Sans", sans-serif;
-  font-weight: bold;
+  text-decoration: underline;
 }
 
-figcaption {
-  font-family: "PT Serif", serif;
-  font-weight: normal;
-  font-style: italic;
-  text-align: center;
-  font-size: 1rem;
-}
-
-ul li, dl, footer {
-  font-family: "PT Serif", serif;
-}
-
-blockquote {
-  font-family: "PT serif", serif;
-  font-size: 1.5rem;
-  font-style: italic;
-}
-
-.germ {
-  font-weight: bold;
-  font-size: 1.125rem;
-}
-
-.comm {
-  list-style-type: lower-greek;
-}
-
-dt {
-  font-style: italic;
-}
-
-dl dd {
-  font-weight: bold;
-  text-align: left;
-}
-
-aside ul li {
-  font-size: .8rem;
+ul, li {
   list-style-type: circle;
 }
 
-footer small a {
-  font-size: .8rem;
-}
-
-cite {
-  font-size: .8rem;
+.bolded {
+  font-weight: bold;
 }
